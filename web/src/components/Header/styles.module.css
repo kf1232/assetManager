@@ -1,0 +1,47 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--Header-Offset);
+    border-radius: 10px;
+    background-color: var(--background-DarkBlue);
+    color: var(--text-White);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    align-items: center;
+    padding-left: 20px;
+    z-index: 1000;
+}
+
+.companyInfo {
+    font-size: var(--text-TitleFontSize);
+    font-weight: 900;
+}
+
+.companyInfo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.companyInfo h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--text-White);
+}
+
+.userInfo {
+    font-size: var(--text-TitleInfoSize);
+    margin-right: 30px;
+    text-align: right;
+}
+
+.userInfo p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Header CSS ==========================================================**** */

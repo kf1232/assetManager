@@ -1,0 +1,36 @@
+.normalState {
+
+}
+
+.expiredState {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.expiredState:nth-child(even) {
+    background-color:rgba(200, 0, 0, 0.4);
+}
+
+.warningState {
+    background-color: rgba(255, 255, 0, 0.2);
+}
+
+.warningState:nth-child(even) {
+    background-color:rgba(255, 255, 0, 0.6);
+}
+
+.inactiveState {
+    background-color: rgba(255, 140, 0, 0.2);
+}
+
+.inactiveState:nth-child(even) {
+    background-color: rgb(255, 140, 0, 0.6);
+}
+
+.outsideUserState {
+    background-color: rgb(128, 0, 128, 0.2);
+}
+
+.outsideUserState:nth-child(even) {
+    background-color:rgba(128, 0, 128, 0.6);
+}
+

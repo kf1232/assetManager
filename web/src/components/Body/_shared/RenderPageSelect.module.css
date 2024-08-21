@@ -1,0 +1,12 @@
+.PageSelectContainer {
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.PageSelectBack {}
+
+.PageSelectForward {}
+
+.PageSelectText {
+   padding: 10px;
+}

@@ -1,0 +1,32 @@
+.FooterMain {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--background-DarkGrey);
+    border-radius: 0 0 10px 10px;
+    height: var(--Footer-Offset);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.FooterButton {
+    background-color: var(--background-Grey);
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: var(--text-TitleInfoSize);
+    color: var(--text-White);
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.FooterButton:hover {
+    background-color: var(--background-hover-LightGray)
+}
+
+.FooterButton:active {
+    background-color: var(--background-active-LightGray)
+}

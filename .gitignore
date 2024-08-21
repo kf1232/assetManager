@@ -1,0 +1,17 @@
+*/node_modules
+*/build
+*/log
+**/swagger_output.json
+*.pem
+*.pfx
+*.log
+**/audit.json
+**/.env
+**/eslint-output.txt
+
+*/dist
+
+**/mydomain.crt
+**/mydomain.csr
+**/mydomain.key
+*.jpg

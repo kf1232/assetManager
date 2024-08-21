@@ -1,0 +1,22 @@
+.Action-Container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Action-Button {
+    flex: 1;
+    margin: 0, 5px;
+}
+
+.BodyHeader {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: end;
+}
+
+.tableHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}

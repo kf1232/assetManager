@@ -1,0 +1,69 @@
+.tableHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ClaimUserButton {
+    min-width: 150px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: var(--background-Grey);
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: var(--text-TitleInfoSize);
+    color: var(--text-White);
+}
+
+.assignActive {
+    min-width: 150px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: var(--background-Grey);
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: var(--text-TitleInfoSize);
+    color: var(--text-White);
+}
+
+.assignInactive {
+    min-width: 150px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid #19be11;
+    font-weight: bolder;
+    font-size: var(--text-TitleInfoSize);
+    
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: var(--background-LightGrey);
+    color: white;
+    background-color: #11910b;
+}
+
+.RemoveUserButton {
+    min-width: 90px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: rgb(158, 6, 6);
+    border-radius: 5px;
+    border: 1px solid rgb(85, 8, 8);
+    font-weight: bolder;
+    font-size: var(--text-TitleInfoSize);
+    color: var(--text-White);
+}
+
+.HideUserButton {
+    min-width: 90px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: rgb(158, 6, 6);
+    border-radius: 5px;
+    border: 1px solid rgb(85, 8, 8);
+    font-weight: bolder;
+    font-size: var(--text-TitleInfoSize);
+    color: var(--text-White);
+}

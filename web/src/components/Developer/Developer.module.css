@@ -1,0 +1,44 @@
+.developer {
+    margin-top: 102px;
+    border-radius: 10px;
+    background-color: var(--background-DarkBlue);
+    color: var(--text-White);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    margin-bottom: 1px;
+}
+
+.developerItem {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: var(--company-blue);
+}
+
+.developerItem label {
+    font-family: 'companyOne', sans-serif;
+    color: var(--company-white);
+    font-size: 10px;
+}
+
+.developItem select {
+    font-family: 'companyOne', sans-serif;
+    font-size: 10px;
+    border: 1px solid var(--company-grey);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.developerItem option {
+    font-family: 'companyOne', sans-serif;
+    font-size: 10px;
+}
+

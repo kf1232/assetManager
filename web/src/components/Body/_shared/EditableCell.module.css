@@ -1,0 +1,9 @@
+.blankCell {
+    font-size: xx-small;
+    text-align: center;
+}
+
+.editableCell {
+    text-align: center;
+    font-size: large;
+}

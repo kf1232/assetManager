@@ -1,0 +1,30 @@
+
+/* Action Selector CSS =================================================**** */
+.navBar {
+    background-color: var(--background-White);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+
+}
+
+button {
+    background-color: var(--background-Grey);
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bolder;
+    width: 200px;
+    font-size: var(--text-TitleInfoSize);
+    color: var(--text-White);
+    height: 25px;
+}
+
+.Action-Button-Disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: var(--background-LightGrey);
+    color: #4b4b4b
+}
